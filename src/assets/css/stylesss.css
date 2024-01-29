@@ -1,0 +1,512 @@
+/*-- hrms custom style --*/
+a:hover {
+    text-decoration: none;
+    color: #ee3124;
+}
+.red {
+    color: #ee3124;
+}
+.txt-red {
+    color: #ee3124;
+}
+.b-b-primary {
+    border-bottom: 1px solid #ee3124;
+}
+.btn.btn-primary, .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn, .wizard > .actions a.btn-primary, .dt-buttons .btn-primary.dt-button, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary, .sweet-alert button.btn-primary, .owl-theme .owl-nav .btn-primary[class*="owl-"], button.btn-primary.fc-agendaDay-button.fc-state-default.fc-corner-right, button.btn-primary.fc-month-button.fc-state-default.fc-corner-left, button.btn-primary.fc-agendaWeek-button, .btn-primary.fc-prev-button, .btn-primary.fc-next-button, .btn-primary.fc-today-button {
+    background: #ee3124;
+    border: solid 1px #ee3124;
+}
+.btn.btn-primary:hover, .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn:hover, .wizard > .actions a.btn-primary:hover, .dt-buttons .btn-primary.dt-button:hover, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary:hover, .sweet-alert button.btn-primary:hover, .owl-theme .owl-nav .btn-primary[class*="owl-"]:hover, button.btn-primary.fc-agendaDay-button.fc-state-default.fc-corner-right:hover, button.btn-primary.fc-month-button.fc-state-default.fc-corner-left:hover, button.btn-primary.fc-agendaWeek-button:hover, .btn-primary.fc-prev-button:hover, .btn-primary.fc-next-button:hover, .btn-primary.fc-today-button:hover, .btn.btn-primary:active, .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn:active, .wizard > .actions a.btn-primary:active, .dt-buttons .btn-primary.dt-button:active, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary:active, .sweet-alert button.btn-primary:active, .owl-theme .owl-nav .btn-primary[class*="owl-"]:active, button.btn-primary.fc-agendaDay-button.fc-state-default.fc-corner-right:active, button.btn-primary.fc-month-button.fc-state-default.fc-corner-left:active, button.btn-primary.fc-agendaWeek-button:active, .btn-primary.fc-prev-button:active, .btn-primary.fc-next-button:active, .btn-primary.fc-today-button:active, .btn.btn-primary:focus, .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn:focus, .wizard > .actions a.btn-primary:focus, .dt-buttons .btn-primary.dt-button:focus, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary:focus, .sweet-alert button.btn-primary:focus, .owl-theme .owl-nav .btn-primary[class*="owl-"]:focus, button.btn-primary.fc-agendaDay-button.fc-state-default.fc-corner-right:focus, button.btn-primary.fc-month-button.fc-state-default.fc-corner-left:focus, button.btn-primary.fc-agendaWeek-button:focus, .btn-primary.fc-prev-button:focus, .btn-primary.fc-next-button:focus, .btn-primary.fc-today-button:focus {
+    background: rgba(238, 49, 36, 0.85);
+    border: solid 1px rgba(238, 49, 36, 0.85);
+}
+.btn.btn-outline.btn-primary, .fixed-sidebar-left .side-nav > li > a.btn-outline.btn-primary.documentation-btn, .fixed-sidebar-left ul.wysihtml5-toolbar .side-nav > li > a.btn-primary.documentation-btn.btn, ul.wysihtml5-toolbar .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn.btn, .fixed-sidebar-left .note-editor .side-nav > li > a.btn-primary.documentation-btn.note-btn.btn-sm, .note-editor .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn.note-btn.btn-sm, .fixed-sidebar-left .note-editor .wizard > .actions .side-nav > li > a.btn-primary.documentation-btn.note-btn, .note-editor .wizard > .actions .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn.note-btn, .fixed-sidebar-left .wizard > .actions .note-editor .side-nav > li > a.btn-primary.documentation-btn.note-btn, .wizard > .actions .note-editor .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn.note-btn, .wizard > .actions .disabled a.btn-outline.btn-primary, .wizard > .actions .disabled ul.wysihtml5-toolbar a.btn-primary.btn, ul.wysihtml5-toolbar .wizard > .actions .disabled a.btn-primary.btn, .note-editor .wizard > .actions .disabled a.btn-primary.note-btn, .wizard > .actions .disabled .note-editor a.btn-primary.note-btn, .wizard > .actions .note-editor .disabled a.btn-primary.note-btn, .wizard > .actions .disabled a.btn-outline.btn-primary:hover, .wizard > .actions .disabled ul.wysihtml5-toolbar a.btn-primary.btn:hover, ul.wysihtml5-toolbar .wizard > .actions .disabled a.btn-primary.btn:hover, .note-editor .wizard > .actions .disabled a.btn-primary.note-btn:hover, .wizard > .actions .disabled .note-editor a.btn-primary.note-btn:hover, .wizard > .actions .note-editor .disabled a.btn-primary.note-btn:hover, .wizard > .actions .disabled a.btn-outline.btn-primary:active, .wizard > .actions .disabled ul.wysihtml5-toolbar a.btn-primary.btn:active, ul.wysihtml5-toolbar .wizard > .actions .disabled a.btn-primary.btn:active, .note-editor .wizard > .actions .disabled a.btn-primary.note-btn:active, .wizard > .actions .disabled .note-editor a.btn-primary.note-btn:active, .wizard > .actions .note-editor .disabled a.btn-primary.note-btn:active, .wizard > .actions a.btn-outline.btn-primary, .wizard > .actions ul.wysihtml5-toolbar a.btn-primary.btn, ul.wysihtml5-toolbar .wizard > .actions a.btn-primary.btn, .note-editor .wizard > .actions a.btn-primary.note-btn, .wizard > .actions .note-editor a.btn-primary.note-btn, .wizard > .actions a.btn-outline.btn-primary:hover, .wizard > .actions ul.wysihtml5-toolbar a.btn-primary.btn:hover, ul.wysihtml5-toolbar .wizard > .actions a.btn-primary.btn:hover, .note-editor .wizard > .actions a.btn-primary.note-btn:hover, .wizard > .actions .note-editor a.btn-primary.note-btn:hover, .wizard > .actions a.btn-outline.btn-primary:active, .wizard > .actions ul.wysihtml5-toolbar a.btn-primary.btn:active, ul.wysihtml5-toolbar .wizard > .actions a.btn-primary.btn:active, .note-editor .wizard > .actions a.btn-primary.note-btn:active, .wizard > .actions .note-editor a.btn-primary.note-btn:active, ul.wysihtml5-toolbar a.btn.btn-primary, ul.wysihtml5-toolbar .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn, .fixed-sidebar-left ul.wysihtml5-toolbar .side-nav > li > a.btn-primary.documentation-btn, ul.wysihtml5-toolbar .wizard > .actions a.btn-primary, .wizard > .actions ul.wysihtml5-toolbar a.btn-primary, ul.wysihtml5-toolbar .dt-buttons a.btn-primary.dt-button, .dt-buttons ul.wysihtml5-toolbar a.btn-primary.dt-button, ul.wysihtml5-toolbar .owl-theme .owl-nav a.btn-primary[class*="owl-"], .owl-theme .owl-nav ul.wysihtml5-toolbar a.btn-primary[class*="owl-"], ul.wysihtml5-toolbar a.btn-primary.fc-prev-button, ul.wysihtml5-toolbar a.btn-primary.fc-next-button, ul.wysihtml5-toolbar a.btn-primary.fc-today-button, .note-editor .btn.btn-primary.note-btn.btn-sm, .note-editor .dt-buttons .btn-primary.note-btn.btn-sm.dt-button, .dt-buttons .note-editor .btn-primary.note-btn.btn-sm.dt-button, .note-editor .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.note-btn.btn-sm, .tablesaw-sortable th.tablesaw-sortable-head .note-editor button.btn-primary.note-btn.btn-sm, .note-editor .sweet-alert button.btn-primary.note-btn.btn-sm, .sweet-alert .note-editor button.btn-primary.note-btn.btn-sm, .note-editor .owl-theme .owl-nav .btn-primary.note-btn.btn-sm[class*="owl-"], .owl-theme .owl-nav .note-editor .btn-primary.note-btn.btn-sm[class*="owl-"], .note-editor button.btn-primary.note-btn.btn-sm.fc-agendaDay-button.fc-state-default.fc-corner-right, .note-editor button.btn-primary.note-btn.btn-sm.fc-month-button.fc-state-default.fc-corner-left, .note-editor button.btn-primary.note-btn.btn-sm.fc-agendaWeek-button, .note-editor .btn-primary.note-btn.btn-sm.fc-prev-button, .note-editor .btn-primary.note-btn.btn-sm.fc-next-button, .note-editor .btn-primary.note-btn.btn-sm.fc-today-button, .dt-buttons .btn-outline.btn-primary.dt-button, .dt-buttons ul.wysihtml5-toolbar a.btn-primary.dt-button.btn, ul.wysihtml5-toolbar .dt-buttons a.btn-primary.dt-button.btn, .dt-buttons .note-editor .wizard > .actions a.btn-primary.dt-button.note-btn, .note-editor .wizard > .actions .dt-buttons a.btn-primary.dt-button.note-btn, .dt-buttons .wizard > .actions .note-editor a.btn-primary.dt-button.note-btn, .wizard > .actions .note-editor .dt-buttons a.btn-primary.dt-button.note-btn, .dt-buttons .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.dt-button, .tablesaw-sortable th.tablesaw-sortable-head .dt-buttons button.btn-primary.dt-button, .dt-buttons button.btn-primary.dt-button.fc-agendaDay-button.fc-state-default.fc-corner-right, .dt-buttons button.btn-primary.dt-button.fc-month-button.fc-state-default.fc-corner-left, .dt-buttons button.btn-primary.dt-button.fc-agendaWeek-button, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary, .sweet-alert button.btn-outline.btn-primary, .sweet-alert .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary, .tablesaw-sortable th.tablesaw-sortable-head .sweet-alert button.btn-primary, .sweet-alert button.btn-primary.fc-agendaDay-button.fc-state-default.fc-corner-right, .sweet-alert button.btn-primary.fc-month-button.fc-state-default.fc-corner-left, .sweet-alert button.btn-primary.fc-agendaWeek-button, .owl-theme .owl-nav .btn-outline.btn-primary[class*="owl-"], .owl-theme .owl-nav ul.wysihtml5-toolbar a.btn-primary[class*="owl-"].btn, ul.wysihtml5-toolbar .owl-theme .owl-nav a.btn-primary[class*="owl-"].btn, .owl-theme .owl-nav .note-editor .wizard > .actions a.btn-primary[class*="owl-"].note-btn, .note-editor .wizard > .actions .owl-theme .owl-nav a.btn-primary[class*="owl-"].note-btn, .owl-theme .owl-nav .wizard > .actions .note-editor a.btn-primary[class*="owl-"].note-btn, .wizard > .actions .note-editor .owl-theme .owl-nav a.btn-primary[class*="owl-"].note-btn, .owl-theme .owl-nav .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary[class*="owl-"], .tablesaw-sortable th.tablesaw-sortable-head .owl-theme .owl-nav button.btn-primary[class*="owl-"], .owl-theme .owl-nav button.btn-primary[class*="owl-"].fc-agendaDay-button.fc-state-default.fc-corner-right, .owl-theme .owl-nav button.btn-primary[class*="owl-"].fc-month-button.fc-state-default.fc-corner-left, .owl-theme .owl-nav button.btn-primary[class*="owl-"].fc-agendaWeek-button, button.btn-primary.fc-agendaDay-button.fc-state-default.fc-corner-right, button.btn-primary.fc-month-button.fc-state-default.fc-corner-left, button.btn-primary.fc-agendaWeek-button, .btn-outline.btn-primary.fc-prev-button, ul.wysihtml5-toolbar a.btn-primary.fc-prev-button.btn, .note-editor .wizard > .actions a.btn-primary.fc-prev-button.note-btn, .wizard > .actions .note-editor a.btn-primary.fc-prev-button.note-btn, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.fc-prev-button, button.btn-primary.fc-prev-button.fc-agendaDay-button.fc-state-default.fc-corner-right, button.btn-primary.fc-prev-button.fc-month-button.fc-state-default.fc-corner-left, button.btn-primary.fc-prev-button.fc-agendaWeek-button, .btn-outline.btn-primary.fc-next-button, ul.wysihtml5-toolbar a.btn-primary.fc-next-button.btn, .note-editor .wizard > .actions a.btn-primary.fc-next-button.note-btn, .wizard > .actions .note-editor a.btn-primary.fc-next-button.note-btn, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.fc-next-button, button.btn-primary.fc-next-button.fc-agendaDay-button.fc-state-default.fc-corner-right, button.btn-primary.fc-next-button.fc-month-button.fc-state-default.fc-corner-left, button.btn-primary.fc-next-button.fc-agendaWeek-button, .btn-outline.btn-primary.fc-today-button, ul.wysihtml5-toolbar a.btn-primary.fc-today-button.btn, .note-editor .wizard > .actions a.btn-primary.fc-today-button.note-btn, .wizard > .actions .note-editor a.btn-primary.fc-today-button.note-btn, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.fc-today-button, button.btn-primary.fc-today-button.fc-agendaDay-button.fc-state-default.fc-corner-right, button.btn-primary.fc-today-button.fc-month-button.fc-state-default.fc-corner-left, button.btn-primary.fc-today-button.fc-agendaWeek-button {
+    border: solid 1px #ee3124;
+    color: #ee3124;
+}
+.btn.btn-outline.btn-primary:hover, .fixed-sidebar-left .side-nav > li > a.btn-outline.btn-primary.documentation-btn:hover, .fixed-sidebar-left ul.wysihtml5-toolbar .side-nav > li > a.btn-primary.documentation-btn.btn:hover, ul.wysihtml5-toolbar .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn.btn:hover, .fixed-sidebar-left .note-editor .side-nav > li > a.btn-primary.documentation-btn.note-btn.btn-sm:hover, .note-editor .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn.note-btn.btn-sm:hover, .fixed-sidebar-left .note-editor .wizard > .actions .side-nav > li > a.btn-primary.documentation-btn.note-btn:hover, .note-editor .wizard > .actions .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn.note-btn:hover, .fixed-sidebar-left .wizard > .actions .note-editor .side-nav > li > a.btn-primary.documentation-btn.note-btn:hover, .wizard > .actions .note-editor .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn.note-btn:hover, .wizard > .actions .disabled a.btn-outline.btn-primary:hover, .wizard > .actions .disabled ul.wysihtml5-toolbar a.btn-primary.btn:hover, ul.wysihtml5-toolbar .wizard > .actions .disabled a.btn-primary.btn:hover, .note-editor .wizard > .actions .disabled a.btn-primary.note-btn:hover, .wizard > .actions .disabled .note-editor a.btn-primary.note-btn:hover, .wizard > .actions .note-editor .disabled a.btn-primary.note-btn:hover, .wizard > .actions .disabled a.btn-outline.btn-primary:hover:active, .wizard > .actions .disabled ul.wysihtml5-toolbar a.btn-primary.btn:hover:active, ul.wysihtml5-toolbar .wizard > .actions .disabled a.btn-primary.btn:hover:active, .note-editor .wizard > .actions .disabled a.btn-primary.note-btn:hover:active, .wizard > .actions .disabled .note-editor a.btn-primary.note-btn:hover:active, .wizard > .actions .note-editor .disabled a.btn-primary.note-btn:hover:active, .wizard > .actions a.btn-outline.btn-primary:hover, .wizard > .actions ul.wysihtml5-toolbar a.btn-primary.btn:hover, ul.wysihtml5-toolbar .wizard > .actions a.btn-primary.btn:hover, .note-editor .wizard > .actions a.btn-primary.note-btn:hover, .wizard > .actions .note-editor a.btn-primary.note-btn:hover, .wizard > .actions a.btn-outline.btn-primary:hover:active, .wizard > .actions ul.wysihtml5-toolbar a.btn-primary.btn:hover:active, ul.wysihtml5-toolbar .wizard > .actions a.btn-primary.btn:hover:active, .note-editor .wizard > .actions a.btn-primary.note-btn:hover:active, .wizard > .actions .note-editor a.btn-primary.note-btn:hover:active, ul.wysihtml5-toolbar a.btn.btn-primary:hover, ul.wysihtml5-toolbar .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn:hover, .fixed-sidebar-left ul.wysihtml5-toolbar .side-nav > li > a.btn-primary.documentation-btn:hover, ul.wysihtml5-toolbar .wizard > .actions a.btn-primary:hover, .wizard > .actions ul.wysihtml5-toolbar a.btn-primary:hover, ul.wysihtml5-toolbar .dt-buttons a.btn-primary.dt-button:hover, .dt-buttons ul.wysihtml5-toolbar a.btn-primary.dt-button:hover, ul.wysihtml5-toolbar .owl-theme .owl-nav a.btn-primary[class*="owl-"]:hover, .owl-theme .owl-nav ul.wysihtml5-toolbar a.btn-primary[class*="owl-"]:hover, ul.wysihtml5-toolbar a.btn-primary.fc-prev-button:hover, ul.wysihtml5-toolbar a.btn-primary.fc-next-button:hover, ul.wysihtml5-toolbar a.btn-primary.fc-today-button:hover, .note-editor .btn.btn-primary.note-btn.btn-sm:hover, .note-editor .dt-buttons .btn-primary.note-btn.btn-sm.dt-button:hover, .dt-buttons .note-editor .btn-primary.note-btn.btn-sm.dt-button:hover, .note-editor .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.note-btn.btn-sm:hover, .tablesaw-sortable th.tablesaw-sortable-head .note-editor button.btn-primary.note-btn.btn-sm:hover, .note-editor .sweet-alert button.btn-primary.note-btn.btn-sm:hover, .sweet-alert .note-editor button.btn-primary.note-btn.btn-sm:hover, .note-editor .owl-theme .owl-nav .btn-primary.note-btn.btn-sm[class*="owl-"]:hover, .owl-theme .owl-nav .note-editor .btn-primary.note-btn.btn-sm[class*="owl-"]:hover, .note-editor button.btn-primary.note-btn.btn-sm.fc-agendaDay-button.fc-state-default.fc-corner-right:hover, .note-editor button.btn-primary.note-btn.btn-sm.fc-month-button.fc-state-default.fc-corner-left:hover, .note-editor button.btn-primary.note-btn.btn-sm.fc-agendaWeek-button:hover, .note-editor .btn-primary.note-btn.btn-sm.fc-prev-button:hover, .note-editor .btn-primary.note-btn.btn-sm.fc-next-button:hover, .note-editor .btn-primary.note-btn.btn-sm.fc-today-button:hover, .dt-buttons .btn-outline.btn-primary.dt-button:hover, .dt-buttons ul.wysihtml5-toolbar a.btn-primary.dt-button.btn:hover, ul.wysihtml5-toolbar .dt-buttons a.btn-primary.dt-button.btn:hover, .dt-buttons .note-editor .wizard > .actions a.btn-primary.dt-button.note-btn:hover, .note-editor .wizard > .actions .dt-buttons a.btn-primary.dt-button.note-btn:hover, .dt-buttons .wizard > .actions .note-editor a.btn-primary.dt-button.note-btn:hover, .wizard > .actions .note-editor .dt-buttons a.btn-primary.dt-button.note-btn:hover, .dt-buttons .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.dt-button:hover, .tablesaw-sortable th.tablesaw-sortable-head .dt-buttons button.btn-primary.dt-button:hover, .dt-buttons button.btn-primary.dt-button.fc-agendaDay-button.fc-state-default.fc-corner-right:hover, .dt-buttons button.btn-primary.dt-button.fc-month-button.fc-state-default.fc-corner-left:hover, .dt-buttons button.btn-primary.dt-button.fc-agendaWeek-button:hover, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary:hover, .sweet-alert button.btn-outline.btn-primary:hover, .sweet-alert .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary:hover, .tablesaw-sortable th.tablesaw-sortable-head .sweet-alert button.btn-primary:hover, .sweet-alert button.btn-primary.fc-agendaDay-button.fc-state-default.fc-corner-right:hover, .sweet-alert button.btn-primary.fc-month-button.fc-state-default.fc-corner-left:hover, .sweet-alert button.btn-primary.fc-agendaWeek-button:hover, .owl-theme .owl-nav .btn-outline.btn-primary[class*="owl-"]:hover, .owl-theme .owl-nav ul.wysihtml5-toolbar a.btn-primary[class*="owl-"].btn:hover, ul.wysihtml5-toolbar .owl-theme .owl-nav a.btn-primary[class*="owl-"].btn:hover, .owl-theme .owl-nav .note-editor .wizard > .actions a.btn-primary[class*="owl-"].note-btn:hover, .note-editor .wizard > .actions .owl-theme .owl-nav a.btn-primary[class*="owl-"].note-btn:hover, .owl-theme .owl-nav .wizard > .actions .note-editor a.btn-primary[class*="owl-"].note-btn:hover, .wizard > .actions .note-editor .owl-theme .owl-nav a.btn-primary[class*="owl-"].note-btn:hover, .owl-theme .owl-nav .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary[class*="owl-"]:hover, .tablesaw-sortable th.tablesaw-sortable-head .owl-theme .owl-nav button.btn-primary[class*="owl-"]:hover, .owl-theme .owl-nav button.btn-primary[class*="owl-"].fc-agendaDay-button.fc-state-default.fc-corner-right:hover, .owl-theme .owl-nav button.btn-primary[class*="owl-"].fc-month-button.fc-state-default.fc-corner-left:hover, .owl-theme .owl-nav button.btn-primary[class*="owl-"].fc-agendaWeek-button:hover, button.btn-primary.fc-agendaDay-button.fc-state-default.fc-corner-right:hover, button.btn-primary.fc-month-button.fc-state-default.fc-corner-left:hover, button.btn-primary.fc-agendaWeek-button:hover, .btn-outline.btn-primary.fc-prev-button:hover, ul.wysihtml5-toolbar a.btn-primary.fc-prev-button.btn:hover, .note-editor .wizard > .actions a.btn-primary.fc-prev-button.note-btn:hover, .wizard > .actions .note-editor a.btn-primary.fc-prev-button.note-btn:hover, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.fc-prev-button:hover, button.btn-primary.fc-prev-button.fc-agendaDay-button.fc-state-default.fc-corner-right:hover, button.btn-primary.fc-prev-button.fc-month-button.fc-state-default.fc-corner-left:hover, button.btn-primary.fc-prev-button.fc-agendaWeek-button:hover, .btn-outline.btn-primary.fc-next-button:hover, ul.wysihtml5-toolbar a.btn-primary.fc-next-button.btn:hover, .note-editor .wizard > .actions a.btn-primary.fc-next-button.note-btn:hover, .wizard > .actions .note-editor a.btn-primary.fc-next-button.note-btn:hover, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.fc-next-button:hover, button.btn-primary.fc-next-button.fc-agendaDay-button.fc-state-default.fc-corner-right:hover, button.btn-primary.fc-next-button.fc-month-button.fc-state-default.fc-corner-left:hover, button.btn-primary.fc-next-button.fc-agendaWeek-button:hover, .btn-outline.btn-primary.fc-today-button:hover, ul.wysihtml5-toolbar a.btn-primary.fc-today-button.btn:hover, .note-editor .wizard > .actions a.btn-primary.fc-today-button.note-btn:hover, .wizard > .actions .note-editor a.btn-primary.fc-today-button.note-btn:hover, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.fc-today-button:hover, button.btn-primary.fc-today-button.fc-agendaDay-button.fc-state-default.fc-corner-right:hover, button.btn-primary.fc-today-button.fc-month-button.fc-state-default.fc-corner-left:hover, button.btn-primary.fc-today-button.fc-agendaWeek-button:hover, .btn.btn-outline.btn-primary:focus, .fixed-sidebar-left .side-nav > li > a.btn-outline.btn-primary.documentation-btn:focus, .fixed-sidebar-left ul.wysihtml5-toolbar .side-nav > li > a.btn-primary.documentation-btn.btn:focus, ul.wysihtml5-toolbar .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn.btn:focus, .fixed-sidebar-left .note-editor .side-nav > li > a.btn-primary.documentation-btn.note-btn.btn-sm:focus, .note-editor .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn.note-btn.btn-sm:focus, .fixed-sidebar-left .note-editor .wizard > .actions .side-nav > li > a.btn-primary.documentation-btn.note-btn:focus, .note-editor .wizard > .actions .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn.note-btn:focus, .fixed-sidebar-left .wizard > .actions .note-editor .side-nav > li > a.btn-primary.documentation-btn.note-btn:focus, .wizard > .actions .note-editor .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn.note-btn:focus, .wizard > .actions .disabled a.btn-outline.btn-primary:focus, .wizard > .actions .disabled ul.wysihtml5-toolbar a.btn-primary.btn:focus, ul.wysihtml5-toolbar .wizard > .actions .disabled a.btn-primary.btn:focus, .note-editor .wizard > .actions .disabled a.btn-primary.note-btn:focus, .wizard > .actions .disabled .note-editor a.btn-primary.note-btn:focus, .wizard > .actions .note-editor .disabled a.btn-primary.note-btn:focus, .wizard > .actions .disabled a.btn-outline.btn-primary:focus:hover, .wizard > .actions .disabled ul.wysihtml5-toolbar a.btn-primary.btn:focus:hover, ul.wysihtml5-toolbar .wizard > .actions .disabled a.btn-primary.btn:focus:hover, .note-editor .wizard > .actions .disabled a.btn-primary.note-btn:focus:hover, .wizard > .actions .disabled .note-editor a.btn-primary.note-btn:focus:hover, .wizard > .actions .note-editor .disabled a.btn-primary.note-btn:focus:hover, .wizard > .actions .disabled a.btn-outline.btn-primary:focus:active, .wizard > .actions .disabled ul.wysihtml5-toolbar a.btn-primary.btn:focus:active, ul.wysihtml5-toolbar .wizard > .actions .disabled a.btn-primary.btn:focus:active, .note-editor .wizard > .actions .disabled a.btn-primary.note-btn:focus:active, .wizard > .actions .disabled .note-editor a.btn-primary.note-btn:focus:active, .wizard > .actions .note-editor .disabled a.btn-primary.note-btn:focus:active, .wizard > .actions a.btn-outline.btn-primary:focus, .wizard > .actions ul.wysihtml5-toolbar a.btn-primary.btn:focus, ul.wysihtml5-toolbar .wizard > .actions a.btn-primary.btn:focus, .note-editor .wizard > .actions a.btn-primary.note-btn:focus, .wizard > .actions .note-editor a.btn-primary.note-btn:focus, .wizard > .actions a.btn-outline.btn-primary:focus:hover, .wizard > .actions ul.wysihtml5-toolbar a.btn-primary.btn:focus:hover, ul.wysihtml5-toolbar .wizard > .actions a.btn-primary.btn:focus:hover, .note-editor .wizard > .actions a.btn-primary.note-btn:focus:hover, .wizard > .actions .note-editor a.btn-primary.note-btn:focus:hover, .wizard > .actions a.btn-outline.btn-primary:focus:active, .wizard > .actions ul.wysihtml5-toolbar a.btn-primary.btn:focus:active, ul.wysihtml5-toolbar .wizard > .actions a.btn-primary.btn:focus:active, .note-editor .wizard > .actions a.btn-primary.note-btn:focus:active, .wizard > .actions .note-editor a.btn-primary.note-btn:focus:active, ul.wysihtml5-toolbar a.btn.btn-primary:focus, ul.wysihtml5-toolbar .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn:focus, .fixed-sidebar-left ul.wysihtml5-toolbar .side-nav > li > a.btn-primary.documentation-btn:focus, ul.wysihtml5-toolbar .wizard > .actions a.btn-primary:focus, .wizard > .actions ul.wysihtml5-toolbar a.btn-primary:focus, ul.wysihtml5-toolbar .dt-buttons a.btn-primary.dt-button:focus, .dt-buttons ul.wysihtml5-toolbar a.btn-primary.dt-button:focus, ul.wysihtml5-toolbar .owl-theme .owl-nav a.btn-primary[class*="owl-"]:focus, .owl-theme .owl-nav ul.wysihtml5-toolbar a.btn-primary[class*="owl-"]:focus, ul.wysihtml5-toolbar a.btn-primary.fc-prev-button:focus, ul.wysihtml5-toolbar a.btn-primary.fc-next-button:focus, ul.wysihtml5-toolbar a.btn-primary.fc-today-button:focus, .note-editor .btn.btn-primary.note-btn.btn-sm:focus, .note-editor .dt-buttons .btn-primary.note-btn.btn-sm.dt-button:focus, .dt-buttons .note-editor .btn-primary.note-btn.btn-sm.dt-button:focus, .note-editor .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.note-btn.btn-sm:focus, .tablesaw-sortable th.tablesaw-sortable-head .note-editor button.btn-primary.note-btn.btn-sm:focus, .note-editor .sweet-alert button.btn-primary.note-btn.btn-sm:focus, .sweet-alert .note-editor button.btn-primary.note-btn.btn-sm:focus, .note-editor .owl-theme .owl-nav .btn-primary.note-btn.btn-sm[class*="owl-"]:focus, .owl-theme .owl-nav .note-editor .btn-primary.note-btn.btn-sm[class*="owl-"]:focus, .note-editor button.btn-primary.note-btn.btn-sm.fc-agendaDay-button.fc-state-default.fc-corner-right:focus, .note-editor button.btn-primary.note-btn.btn-sm.fc-month-button.fc-state-default.fc-corner-left:focus, .note-editor button.btn-primary.note-btn.btn-sm.fc-agendaWeek-button:focus, .note-editor .btn-primary.note-btn.btn-sm.fc-prev-button:focus, .note-editor .btn-primary.note-btn.btn-sm.fc-next-button:focus, .note-editor .btn-primary.note-btn.btn-sm.fc-today-button:focus, .dt-buttons .btn-outline.btn-primary.dt-button:focus, .dt-buttons ul.wysihtml5-toolbar a.btn-primary.dt-button.btn:focus, ul.wysihtml5-toolbar .dt-buttons a.btn-primary.dt-button.btn:focus, .dt-buttons .note-editor .wizard > .actions a.btn-primary.dt-button.note-btn:focus, .note-editor .wizard > .actions .dt-buttons a.btn-primary.dt-button.note-btn:focus, .dt-buttons .wizard > .actions .note-editor a.btn-primary.dt-button.note-btn:focus, .wizard > .actions .note-editor .dt-buttons a.btn-primary.dt-button.note-btn:focus, .dt-buttons .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.dt-button:focus, .tablesaw-sortable th.tablesaw-sortable-head .dt-buttons button.btn-primary.dt-button:focus, .dt-buttons button.btn-primary.dt-button.fc-agendaDay-button.fc-state-default.fc-corner-right:focus, .dt-buttons button.btn-primary.dt-button.fc-month-button.fc-state-default.fc-corner-left:focus, .dt-buttons button.btn-primary.dt-button.fc-agendaWeek-button:focus, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary:focus, .sweet-alert button.btn-outline.btn-primary:focus, .sweet-alert .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary:focus, .tablesaw-sortable th.tablesaw-sortable-head .sweet-alert button.btn-primary:focus, .sweet-alert button.btn-primary.fc-agendaDay-button.fc-state-default.fc-corner-right:focus, .sweet-alert button.btn-primary.fc-month-button.fc-state-default.fc-corner-left:focus, .sweet-alert button.btn-primary.fc-agendaWeek-button:focus, .owl-theme .owl-nav .btn-outline.btn-primary[class*="owl-"]:focus, .owl-theme .owl-nav ul.wysihtml5-toolbar a.btn-primary[class*="owl-"].btn:focus, ul.wysihtml5-toolbar .owl-theme .owl-nav a.btn-primary[class*="owl-"].btn:focus, .owl-theme .owl-nav .note-editor .wizard > .actions a.btn-primary[class*="owl-"].note-btn:focus, .note-editor .wizard > .actions .owl-theme .owl-nav a.btn-primary[class*="owl-"].note-btn:focus, .owl-theme .owl-nav .wizard > .actions .note-editor a.btn-primary[class*="owl-"].note-btn:focus, .wizard > .actions .note-editor .owl-theme .owl-nav a.btn-primary[class*="owl-"].note-btn:focus, .owl-theme .owl-nav .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary[class*="owl-"]:focus, .tablesaw-sortable th.tablesaw-sortable-head .owl-theme .owl-nav button.btn-primary[class*="owl-"]:focus, .owl-theme .owl-nav button.btn-primary[class*="owl-"].fc-agendaDay-button.fc-state-default.fc-corner-right:focus, .owl-theme .owl-nav button.btn-primary[class*="owl-"].fc-month-button.fc-state-default.fc-corner-left:focus, .owl-theme .owl-nav button.btn-primary[class*="owl-"].fc-agendaWeek-button:focus, button.btn-primary.fc-agendaDay-button.fc-state-default.fc-corner-right:focus, button.btn-primary.fc-month-button.fc-state-default.fc-corner-left:focus, button.btn-primary.fc-agendaWeek-button:focus, .btn-outline.btn-primary.fc-prev-button:focus, ul.wysihtml5-toolbar a.btn-primary.fc-prev-button.btn:focus, .note-editor .wizard > .actions a.btn-primary.fc-prev-button.note-btn:focus, .wizard > .actions .note-editor a.btn-primary.fc-prev-button.note-btn:focus, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.fc-prev-button:focus, button.btn-primary.fc-prev-button.fc-agendaDay-button.fc-state-default.fc-corner-right:focus, button.btn-primary.fc-prev-button.fc-month-button.fc-state-default.fc-corner-left:focus, button.btn-primary.fc-prev-button.fc-agendaWeek-button:focus, .btn-outline.btn-primary.fc-next-button:focus, ul.wysihtml5-toolbar a.btn-primary.fc-next-button.btn:focus, .note-editor .wizard > .actions a.btn-primary.fc-next-button.note-btn:focus, .wizard > .actions .note-editor a.btn-primary.fc-next-button.note-btn:focus, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.fc-next-button:focus, button.btn-primary.fc-next-button.fc-agendaDay-button.fc-state-default.fc-corner-right:focus, button.btn-primary.fc-next-button.fc-month-button.fc-state-default.fc-corner-left:focus, button.btn-primary.fc-next-button.fc-agendaWeek-button:focus, .btn-outline.btn-primary.fc-today-button:focus, ul.wysihtml5-toolbar a.btn-primary.fc-today-button.btn:focus, .note-editor .wizard > .actions a.btn-primary.fc-today-button.note-btn:focus, .wizard > .actions .note-editor a.btn-primary.fc-today-button.note-btn:focus, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.fc-today-button:focus, button.btn-primary.fc-today-button.fc-agendaDay-button.fc-state-default.fc-corner-right:focus, button.btn-primary.fc-today-button.fc-month-button.fc-state-default.fc-corner-left:focus, button.btn-primary.fc-today-button.fc-agendaWeek-button:focus, .btn.btn-outline.btn-primary:active, .fixed-sidebar-left .side-nav > li > a.btn-outline.btn-primary.documentation-btn:active, .fixed-sidebar-left ul.wysihtml5-toolbar .side-nav > li > a.btn-primary.documentation-btn.btn:active, ul.wysihtml5-toolbar .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn.btn:active, .fixed-sidebar-left .note-editor .side-nav > li > a.btn-primary.documentation-btn.note-btn.btn-sm:active, .note-editor .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn.note-btn.btn-sm:active, .fixed-sidebar-left .note-editor .wizard > .actions .side-nav > li > a.btn-primary.documentation-btn.note-btn:active, .note-editor .wizard > .actions .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn.note-btn:active, .fixed-sidebar-left .wizard > .actions .note-editor .side-nav > li > a.btn-primary.documentation-btn.note-btn:active, .wizard > .actions .note-editor .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn.note-btn:active, .wizard > .actions .disabled a.btn-outline.btn-primary:active, .wizard > .actions .disabled ul.wysihtml5-toolbar a.btn-primary.btn:active, ul.wysihtml5-toolbar .wizard > .actions .disabled a.btn-primary.btn:active, .note-editor .wizard > .actions .disabled a.btn-primary.note-btn:active, .wizard > .actions .disabled .note-editor a.btn-primary.note-btn:active, .wizard > .actions .note-editor .disabled a.btn-primary.note-btn:active, .wizard > .actions .disabled a.btn-outline.btn-primary:active:hover, .wizard > .actions .disabled ul.wysihtml5-toolbar a.btn-primary.btn:active:hover, ul.wysihtml5-toolbar .wizard > .actions .disabled a.btn-primary.btn:active:hover, .note-editor .wizard > .actions .disabled a.btn-primary.note-btn:active:hover, .wizard > .actions .disabled .note-editor a.btn-primary.note-btn:active:hover, .wizard > .actions .note-editor .disabled a.btn-primary.note-btn:active:hover, .wizard > .actions a.btn-outline.btn-primary:active, .wizard > .actions ul.wysihtml5-toolbar a.btn-primary.btn:active, ul.wysihtml5-toolbar .wizard > .actions a.btn-primary.btn:active, .note-editor .wizard > .actions a.btn-primary.note-btn:active, .wizard > .actions .note-editor a.btn-primary.note-btn:active, .wizard > .actions a.btn-outline.btn-primary:active:hover, .wizard > .actions ul.wysihtml5-toolbar a.btn-primary.btn:active:hover, ul.wysihtml5-toolbar .wizard > .actions a.btn-primary.btn:active:hover, .note-editor .wizard > .actions a.btn-primary.note-btn:active:hover, .wizard > .actions .note-editor a.btn-primary.note-btn:active:hover, ul.wysihtml5-toolbar a.btn.btn-primary:active, ul.wysihtml5-toolbar .fixed-sidebar-left .side-nav > li > a.btn-primary.documentation-btn:active, .fixed-sidebar-left ul.wysihtml5-toolbar .side-nav > li > a.btn-primary.documentation-btn:active, ul.wysihtml5-toolbar .wizard > .actions a.btn-primary:active, .wizard > .actions ul.wysihtml5-toolbar a.btn-primary:active, ul.wysihtml5-toolbar .dt-buttons a.btn-primary.dt-button:active, .dt-buttons ul.wysihtml5-toolbar a.btn-primary.dt-button:active, ul.wysihtml5-toolbar .owl-theme .owl-nav a.btn-primary[class*="owl-"]:active, .owl-theme .owl-nav ul.wysihtml5-toolbar a.btn-primary[class*="owl-"]:active, ul.wysihtml5-toolbar a.btn-primary.fc-prev-button:active, ul.wysihtml5-toolbar a.btn-primary.fc-next-button:active, ul.wysihtml5-toolbar a.btn-primary.fc-today-button:active, .note-editor .btn.btn-primary.note-btn.btn-sm:active, .note-editor .dt-buttons .btn-primary.note-btn.btn-sm.dt-button:active, .dt-buttons .note-editor .btn-primary.note-btn.btn-sm.dt-button:active, .note-editor .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.note-btn.btn-sm:active, .tablesaw-sortable th.tablesaw-sortable-head .note-editor button.btn-primary.note-btn.btn-sm:active, .note-editor .sweet-alert button.btn-primary.note-btn.btn-sm:active, .sweet-alert .note-editor button.btn-primary.note-btn.btn-sm:active, .note-editor .owl-theme .owl-nav .btn-primary.note-btn.btn-sm[class*="owl-"]:active, .owl-theme .owl-nav .note-editor .btn-primary.note-btn.btn-sm[class*="owl-"]:active, .note-editor button.btn-primary.note-btn.btn-sm.fc-agendaDay-button.fc-state-default.fc-corner-right:active, .note-editor button.btn-primary.note-btn.btn-sm.fc-month-button.fc-state-default.fc-corner-left:active, .note-editor button.btn-primary.note-btn.btn-sm.fc-agendaWeek-button:active, .note-editor .btn-primary.note-btn.btn-sm.fc-prev-button:active, .note-editor .btn-primary.note-btn.btn-sm.fc-next-button:active, .note-editor .btn-primary.note-btn.btn-sm.fc-today-button:active, .dt-buttons .btn-outline.btn-primary.dt-button:active, .dt-buttons ul.wysihtml5-toolbar a.btn-primary.dt-button.btn:active, ul.wysihtml5-toolbar .dt-buttons a.btn-primary.dt-button.btn:active, .dt-buttons .note-editor .wizard > .actions a.btn-primary.dt-button.note-btn:active, .note-editor .wizard > .actions .dt-buttons a.btn-primary.dt-button.note-btn:active, .dt-buttons .wizard > .actions .note-editor a.btn-primary.dt-button.note-btn:active, .wizard > .actions .note-editor .dt-buttons a.btn-primary.dt-button.note-btn:active, .dt-buttons .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.dt-button:active, .tablesaw-sortable th.tablesaw-sortable-head .dt-buttons button.btn-primary.dt-button:active, .dt-buttons button.btn-primary.dt-button.fc-agendaDay-button.fc-state-default.fc-corner-right:active, .dt-buttons button.btn-primary.dt-button.fc-month-button.fc-state-default.fc-corner-left:active, .dt-buttons button.btn-primary.dt-button.fc-agendaWeek-button:active, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary:active, .sweet-alert button.btn-outline.btn-primary:active, .sweet-alert .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary:active, .tablesaw-sortable th.tablesaw-sortable-head .sweet-alert button.btn-primary:active, .sweet-alert button.btn-primary.fc-agendaDay-button.fc-state-default.fc-corner-right:active, .sweet-alert button.btn-primary.fc-month-button.fc-state-default.fc-corner-left:active, .sweet-alert button.btn-primary.fc-agendaWeek-button:active, .owl-theme .owl-nav .btn-outline.btn-primary[class*="owl-"]:active, .owl-theme .owl-nav ul.wysihtml5-toolbar a.btn-primary[class*="owl-"].btn:active, ul.wysihtml5-toolbar .owl-theme .owl-nav a.btn-primary[class*="owl-"].btn:active, .owl-theme .owl-nav .note-editor .wizard > .actions a.btn-primary[class*="owl-"].note-btn:active, .note-editor .wizard > .actions .owl-theme .owl-nav a.btn-primary[class*="owl-"].note-btn:active, .owl-theme .owl-nav .wizard > .actions .note-editor a.btn-primary[class*="owl-"].note-btn:active, .wizard > .actions .note-editor .owl-theme .owl-nav a.btn-primary[class*="owl-"].note-btn:active, .owl-theme .owl-nav .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary[class*="owl-"]:active, .tablesaw-sortable th.tablesaw-sortable-head .owl-theme .owl-nav button.btn-primary[class*="owl-"]:active, .owl-theme .owl-nav button.btn-primary[class*="owl-"].fc-agendaDay-button.fc-state-default.fc-corner-right:active, .owl-theme .owl-nav button.btn-primary[class*="owl-"].fc-month-button.fc-state-default.fc-corner-left:active, .owl-theme .owl-nav button.btn-primary[class*="owl-"].fc-agendaWeek-button:active, button.btn-primary.fc-agendaDay-button.fc-state-default.fc-corner-right:active, button.btn-primary.fc-month-button.fc-state-default.fc-corner-left:active, button.btn-primary.fc-agendaWeek-button:active, .btn-outline.btn-primary.fc-prev-button:active, ul.wysihtml5-toolbar a.btn-primary.fc-prev-button.btn:active, .note-editor .wizard > .actions a.btn-primary.fc-prev-button.note-btn:active, .wizard > .actions .note-editor a.btn-primary.fc-prev-button.note-btn:active, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.fc-prev-button:active, button.btn-primary.fc-prev-button.fc-agendaDay-button.fc-state-default.fc-corner-right:active, button.btn-primary.fc-prev-button.fc-month-button.fc-state-default.fc-corner-left:active, button.btn-primary.fc-prev-button.fc-agendaWeek-button:active, .btn-outline.btn-primary.fc-next-button:active, ul.wysihtml5-toolbar a.btn-primary.fc-next-button.btn:active, .note-editor .wizard > .actions a.btn-primary.fc-next-button.note-btn:active, .wizard > .actions .note-editor a.btn-primary.fc-next-button.note-btn:active, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.fc-next-button:active, button.btn-primary.fc-next-button.fc-agendaDay-button.fc-state-default.fc-corner-right:active, button.btn-primary.fc-next-button.fc-month-button.fc-state-default.fc-corner-left:active, button.btn-primary.fc-next-button.fc-agendaWeek-button:active, .btn-outline.btn-primary.fc-today-button:active, ul.wysihtml5-toolbar a.btn-primary.fc-today-button.btn:active, .note-editor .wizard > .actions a.btn-primary.fc-today-button.note-btn:active, .wizard > .actions .note-editor a.btn-primary.fc-today-button.note-btn:active, .tablesaw-sortable th.tablesaw-sortable-head button.btn-primary.fc-today-button:active, button.btn-primary.fc-today-button.fc-agendaDay-button.fc-state-default.fc-corner-right:active, button.btn-primary.fc-today-button.fc-month-button.fc-state-default.fc-corner-left:active, button.btn-primary.fc-today-button.fc-agendaWeek-button:active {
+    border: solid 1px #ee3124;
+}
+.modal-header {
+    color: #fff;
+    background:#ee3124;
+}
+.modal-title {
+    color: #fff;
+}
+.fixed-sidebar-left .side-nav li a .pull-left > i {
+    color: #ee3124;
+}
+.submenuinn > ul > li > a:hover, .submenuinn > ul > li.active > a, .submenuinn > ul > li.active > a i, .submenuinn > ul > li.open > a, .submenuinn > ul > li > a:hover i, .submenuinn > ul > li.open > a i {
+    color: #ee3124;
+}
+.submenuinn ul ul li:hover > a, .submenuinn ul ul li.open > a, .submenuinn ul ul li.active > a {
+    color: #ee3124;
+}
+.table > thead > tr > th, .jsgrid-table > thead > tr > th, .table > tfoot > tr > th, .jsgrid-table > tfoot > tr > th {
+    color: #ffffff;
+    background: #566471;
+}
+.employee-details-tabs .tab-content {
+    background: #f3f3f3;
+    border-top: 4px solid #ee3124;
+}
+.nav-pills > li.active > a, .nav-pills > li.open > a {
+    background: #ee3124;
+    color: #fff;
+}
+.nav-pills > li > a:active, .nav-pills > li > a:focus, .nav-pills > li > a:hover {
+    background: #ee3124;
+    color: #fff;
+}
+.nav-pills > li.active > a:active, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover, .nav-pills > li.open > a:active, .nav-pills > li.open > a:focus, .nav-pills > li.open > a:hover {
+    background: #ee3124;
+    color: #fff;
+}
+.custom-tab-1 .nav-tabs > li.active > a {
+    border-bottom: 3px solid #ee3124;
+}
+.tab-content {
+    border-top: 4px solid #ee3124;
+}
+.form-control:focus, .select2-container--default .select2-selection--single .select2-selection__rendered:focus, .select2-container--default .select2-selection--single:focus, .select2-selection.select2-selection--multiple:focus, .wizard .content > .body input:focus, .mce-floatpanel .mce-textbox:focus, .mce-floatpanel .mce-btn:focus, .dataTables_wrapper .dataTables_filter input:focus, .dataTables_wrapper .dataTables_length select:focus, .jsgrid-cell input:focus, .jsgrid-cell select:focus, .tablesaw-bar .btn-select select:focus, .dd-handle:focus, .dd3-content:focus, .app-search .form-control:focus, .app-search .jsgrid-cell input:focus, .jsgrid-cell .app-search input:focus, .app-search .jsgrid-cell select:focus, .jsgrid-cell .app-search select:focus, .app-search .dd-handle:focus, .app-search .dd3-content:focus {
+    border-color: #ee3124;
+}
+.table .off-day{
+  background:#fef1f0 !important;
+}
+.table .off-day td{
+  border-top: 1px solid #ffffff;
+}
+
+#ct_chart_05 .ct-bar{
+    stroke-width: 40px;
+}
+.employee-stats .row {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.employee-stats .col{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.employee-stats > .panel-heading {
+    position: relative;
+    border: none;
+    color: inherit;
+    border-radius: 0;
+    margin: 0px 0px;
+    padding: 10px 15px;
+}
+.employee-stats .stats-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:90px;
+  background: #ee3124;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 12px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-radius: 4px;
+  border: 2px solid #d80f01;
+  padding: 0px 0px;
+  -webkit-box-shadow: 0 6px 10px -4px rgba(0,0,0,.15);
+  box-shadow: 0 6px 10px -4px rgba(0,0,0,.15);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.employee-stats .stats-heading{
+    padding: 10px 0px;
+}
+.employee-stats .stats-box .title{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.employee-stats .stats-box p.lead {
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.employee-stats .stats-box .stats-body {
+    padding:5px;
+}
+
+.training-activity{
+}
+.ta-item {
+    position: relative;
+     padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 1px solid #eee;
+    margin-left: 25px;
+    transition: all 0.3s ease;
+}
+.ta-item:nth-of-type(2n+1) {
+    background-color: rgba(33, 33, 33, 0.01);
+}
+.ta-avatar {
+    position: absolute;
+    left: -25px;
+}
+.ta-avatar.avatar-circle img, .ta-avatar.avatar-circle span {
+    border-radius: 50%;
+}
+.ta-avatar img {
+    height: 50px;
+    width: 50px;
+}
+.ta-item .ta-content {
+    margin-left: 40px;
+}
+.ta-item:last-child {
+    border-color: transparent;
+}
+.training-activity .ta-item .ta-content {
+    padding-bottom:0px;
+}
+.training-activity .ta-item:last-child .ta-content {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+.training-activity .link-bottom{
+  display: block;
+  text-align:center; 
+  padding:15px 0 0;
+}
+
+/*-- employee details style --*/
+
+.employee-details-tabs .tab-content{
+	padding: 0px 10px 4px;
+    background: #f3f3f3;
+	border-top: 4px solid #ee3124;
+}
+.employee-details-tabs .nav-tabs > li > a {
+    padding: 10px 10px;
+}
+.employee-details-tabs .tab-content-inner{
+  padding: 0px 0px 4px;
+  border-top:0px;
+}
+.employee-details-tabs .tab-content .alert.alert-warning {
+	padding: 10px;
+    background: #9aa6b1;
+}
+.employee-details-bar{
+    z-index: 1;
+    box-shadow: 0 1px 15px rgba(0,0,0,.04), 0 1px 6px rgba(0,0,0,.04);
+    width: 280px;
+    float: right;
+    background: #fff;
+    transition: transform .3s;
+    height: calc(100% - 80px);
+    position: fixed;
+    right: 0;
+    top:80px;
+}
+.employee-details-bar .list-group-item {
+    position: relative;
+    display: block;
+  font-size:12px;
+    padding:6px 6px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.project-people img {
+  width: 36px;
+  height: 36px;
+}
+
+/*-- payslip style --*/
+
+.payslip-tabele table td{
+    padding-left: 2pt;
+    padding-top: 2pt;
+    padding-right: 2pt;
+    padding-bottom: 2pt;
+    border: 1pt solid #d3d3d3;
+    background-color: Transparent;
+}
+
+/*-- view-calender --*/
+
+.view-calender table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 800px;
+}
+@media (max-width: 800px) {
+.view-calender table .time {
+    display: none;
+  }
+}
+.view-calender summary {
+  padding-bottom: 0.25em;
+  font-size: 1.5em;
+  font-weight: 100;
+  text-align: left;
+}
+.view-calender tr {
+  position: relative;
+}
+.view-calender th {
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    font-size:14px;
+    padding:8px;
+    background: #ee3124;
+}
+.view-calender td {
+  width: 14.285714286%;
+}
+.view-calender .date {
+  text-align: right;
+  display: block;
+  height: 0;
+  font-size:14px;
+  padding: 0.25em;
+  padding-bottom: 62%;
+  position: relative;
+  border-bottom: 1px solid #dedbdb;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+}
+.view-calender tr:first-child:not(.current-week) .date {
+  border-top: 1px solid #dedbdb;
+}
+.view-calender .date ul,
+.view-calender .date li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #333;
+}
+.view-calender .date ul {
+      text-align: center;
+  padding:0px;
+  font-size: 0.9em;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  font-weight: normal;
+}
+.view-calender .date li {
+  color: #222;
+  width: 100%;
+  height: 1.4em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: relative;
+  list-style: none;
+}
+.view-calender .time {
+  color: #666;
+}
+.view-calender .event {
+  color: #666;
+  font-weight:600;
+}
+.view-calender .satoff{
+	font-size:12px;
+	color: #999;
+}
+.view-calender .previous-week .date {
+  border: none;
+}
+.view-calender .current-week {
+  border-top: 3px solid #fed6d7;
+}
+.view-calender .current-day {
+  background: #fef1f0;
+  border-top: 3px solid #ee3124;
+}
+.view-calender .current-day .date {
+  font-weight: bold;
+  color: #ee3124;
+}
+.view-calender .weekend {
+  background-clop: padding-box;
+  background: #f8f8f8;
+}
+.view-calender .weekend .event{
+  font-weight: bold;
+  color: #ee3124;
+}
+.view-calender .date .different-calendar {
+  color: #00c800;
+}
+
+/*-- Training Style --*/
+
+.trainingd-item{
+  background: #ee3124;
+  color:#ffffff;
+  padding: 0px;
+  overflow: hidden;
+  transition: all 0.3s ease; }
+
+  .trainingd-item .photo {
+    overflow: hidden;
+    position: relative; }
+
+    .trainingd-item .photo .options {
+      position: absolute;
+      right: 10px;
+      top: 5px; }
+
+    .trainingd-item .photo img {
+      margin: 0 auto;
+      width: 100%; 
+      -moz-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+      -o-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+      -webkit-filter: grayscale(100%);
+      filter: gray;
+      filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    }
+    .trainingd-item:hover .photo img {
+      -moz-filter: grayscale(0%);
+      -o-filter: grayscale(0%);
+      -webkit-filter: grayscale(0%);
+      filter: grayscale(0%);
+    }
+
+.trainingd-item .info {
+    padding: 15px 10px 15px; }
+
+.trainingd-item .info .title{
+    overflow: hidden;
+    color:#ffffff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.trainingd-item .product-rating a{
+    color:#ffffff;
+}
+.trainingd-item:hover{
+        box-shadow: 0 6px 10px -4px rgba(0,0,0,.15);
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+/*-- Trainer detail Style --*/
+
+.covcol{
+    position: absolute;
+    bottom: 20px;
+    color: #ffffff;
+}
+.covcol h2, .covcol h3, .covcol h4{
+    color: #ffffff;
+    margin-bottom:10px;
+}
+
+.trainer-box .trainer-cover-pic {
+    position: relative;
+    height:250px; 
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    overflow: hidden;
+    background-size: cover;
+
+}
+.trainer-box .trainer-cover-pic .trainer-image-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #272B34;
+    opacity: .6;
+}
+.trainer-box .trainer-info {
+    position: relative;
+    z-index: 1;
+}
+.trainer-box .trainer-info .text{
+    padding: 5px 15px;
+}
+.trainer-box .trainer-info .text p{
+    line-height: 20px;
+}
+.trainer-box .trainer-info .trainer-img-wrap {
+    border-radius: 2px;
+    height: 143px;
+    margin: -80px auto 0;
+    position: relative;
+    width: 143px;
+}
+.trainer-box .trainer-info .trainer-img-wrap img {
+    width: 135px;
+    height: 135px;
+    border: 5px solid #eee;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+.trainer-box .trainer-info .trainer-img-wrap .fileupload.btn{
+    position: absolute;
+    right: 9px;
+    bottom: 13px;
+    color: #ffffff !important;
+    background: rgba(33, 33, 33, 0.5);
+    border-radius: 0;
+    padding: 3px 10px;
+    border: none;
+}
+
+.project-gallery a:hover img {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+/*-- gallery page --*/
+.project-gallery a .hover-cap {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background: rgba(238, 49, 36, 0.8);
+    bottom: 0;
+    color:#ffffff;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 0;
+    overflow: hidden;
+    perspective: 1px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transform: translateY(75px);
+    -moz-transform: translateY(75px);
+    -ms-transform: translateY(75px);
+    -o-transform: translateY(75px);
+    transform: translateY(75px);
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 100%;
+}
+
+
+/* @media */
+
+@media (max-width: 1400px){
+	.fixed-sidebar-left .side-nav li.active:after {
+		content: " ";
+		background: #ee3124;
+	}
+}
