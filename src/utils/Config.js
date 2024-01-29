@@ -4,6 +4,7 @@ import { BASE_URL, BASE_URL_YALLA } from "./Api";
 import { decryptData } from "../EncryptData";
 import { TOKEN, UserNetworkInfo } from "./EncryptedConstants";
 import { SessionStorage } from "../common/SetupMasterEnum";
+import { LOGIN, REGISTER } from "./UrlConstants";
 
 export const JsonInstance = axios.create({
   baseURL: process.env.REACT_APP_BASE_URL,
@@ -31,6 +32,14 @@ export const FormInstance = axios.create({
     sub: decryptData(UserNetworkInfo)?.IPv4,
   },
 });
+
+export const LOGIN_CALL = (payload) => {
+  return axios.post(`${BASE_URL}${LOGIN}`, payload);
+};
+
+export const REGISTER_CALL = (payload) => {
+  return axios.post(`${BASE_URL}${REGISTER}`, payload);
+};
 
 export const PostRequest = (url, data) => {
   return JsonInstance.post(url, data);

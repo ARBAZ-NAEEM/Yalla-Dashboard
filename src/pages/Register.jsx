@@ -11,7 +11,7 @@ import {
   SET_CRUD_FROM_FIELDS,
   RESET_FORM_FIELDS,
 } from "../redux/actionType/AuthType";
-import { PostRequest } from "../utils/Config";
+import { PostRequest, REGISTER_CALL } from "../utils/Config";
 
 import {
   COMPANY_DETAILS,
@@ -113,7 +113,7 @@ const Register = (props) => {
       is_super_staff: true,
     };
 
-    PostRequest(REGISTER, payload)
+    REGISTER_CALL(payload)
       .then((res) => {
         if (res?.data?.status == true) {
           const employeeID = res?.data?.data.employeeID;

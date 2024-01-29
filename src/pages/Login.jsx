@@ -11,7 +11,7 @@ import {
   SET_CRUD_FROM_FIELDS,
   RESET_FORM_FIELDS,
 } from "../redux/actionType/AuthType";
-import { PostRequest } from "../utils/Config";
+import { LOGIN_CALL, PostRequest } from "../utils/Config";
 
 import {
   COMPANY_DETAILS,
@@ -122,7 +122,7 @@ const Login = (props) => {
       IPAddress: decryptData(UserNetworkInfo)?.IPv4,
     };
 
-    PostRequest(LOGIN, payload)
+    LOGIN_CALL(payload)
       .then((res) => {
         if (res?.data?.status == true) {
           const employeeID = res?.data?.data.employeeID;
