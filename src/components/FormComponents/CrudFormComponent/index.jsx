@@ -452,7 +452,7 @@ const CrudFormComponent = (props) => {
                               onClick={() => setToggleForm(true)}
                               id="add-btn"
                               showToolTip={false}
-                              toolTipTitle="Add"
+                              toolTipTitle="Add "
                               showIcon={true}
                             ></FormGroupButton>
                           )
