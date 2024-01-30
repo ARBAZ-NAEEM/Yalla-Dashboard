@@ -22,7 +22,7 @@ const LogoutModal = (props) => {
             Session Expire Warning
           </ModalHeader>
           <ModalBody>Your Session is Expired</ModalBody>
-          <ModalFooter>
+          {/* <ModalFooter>
             <Button
               color="info"
               onClick={(e) => props.signOut(e)}
@@ -34,7 +34,7 @@ const LogoutModal = (props) => {
             >
               Logout
             </Button>
-          </ModalFooter>
+          </ModalFooter> */}
         </Modal>
       }
     </>
