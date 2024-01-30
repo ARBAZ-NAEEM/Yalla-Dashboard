@@ -2080,6 +2080,22 @@ h6.complaints-count span {
   color: #fff;
   border-radius: 10px;
 }
+.play-button {
+  float: right;
+  margin: 20px 10px;
+}
+button.play-btn {
+  border: unset;
+  background-color: #e84b1e;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 10px;
+}
+.video-section {
+  border: 2px solid #e84b1e;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
 .table-data.last-signature-dev table img {
   width: 50% !important;
   height: 60px;

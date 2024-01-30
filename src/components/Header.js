@@ -180,7 +180,7 @@ const Header = (props) => {
                       >
                         {decryptData(COMPANY_DETAILS, SessionStorage)?.Company}
                       </h2>
-                      <img className="logo-img" src={Logo} alt="Logo" />
+                      {/* <img className="logo-img" src={Logo} alt="Logo" /> */}
                     </Link>
                   ) : (
                     <Link to="/pages/admission/instruction">
@@ -192,7 +192,7 @@ const Header = (props) => {
                       >
                         {decryptData(COMPANY_DETAILS, SessionStorage)?.Company}
                       </h2>
-                      <img className="logo-img" src={Logo} alt="Logo" />
+                      {/* <img className="logo-img" src={Logo} alt="Logo" /> */}
                     </Link>
                   )}
                 </div>
